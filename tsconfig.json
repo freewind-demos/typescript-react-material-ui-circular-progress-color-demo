@@ -3,12 +3,9 @@
     "strict": true,
     "target": "es6",
     "module": "commonjs",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true,
     "jsx": "react",
-    "moduleResolution": "node"
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   },
   "exclude": [
     "node_modules"
